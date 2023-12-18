@@ -1,0 +1,84 @@
+.logo {
+    position: fixed;
+    border-radius: 10px;
+    border: solid goldenrod 2px;
+    width: 25vw;
+    top: 15vh;
+    left: 12vw;
+    box-shadow: 10px 10px 10px black;
+}
+.fundo{
+    display: block;
+    height: 100vh;
+    width: 100vw;
+}
+.apresentacao {
+    position: fixed;
+    left: 8vw;
+    top: 45vh;
+    width: 33vw;
+    height: 40vh;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    box-shadow: 0 0 15px black;
+}
+.titulo {
+    margin-bottom: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+.texto {
+    line-height: 23px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.marcas {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 18vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.marcas li {
+    margin-bottom: 20px;
+    border: none;
+}
+.marcas li p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+}
+.marcas li img {
+    border-radius: 10px;
+}
+.marcas li a {
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.frase-disponivel {
+    right: 10px;
+    width: 15vw;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid black 2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.samsung img {
+    border: solid 2px;
+}

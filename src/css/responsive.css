@@ -1,0 +1,41 @@
+@media (max-width:500px) {
+    .logo {
+        width: 50vw;
+        left: 25vw;
+        top: 10dvh;
+    }
+    .apresentacao {
+        left: 10vw;
+        top: 35vh;
+        width: 80vw;
+    }
+    .marcas {
+        flex-direction: row;
+        height: 15vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    li img {
+        width: 40px;
+    }
+    li {
+        margin: 10px;
+    }
+    .xiaomi {
+        margin-left: 20px;
+    }
+    .frase-disponivel {
+        width: 120px;
+        height: 80px;
+        font-size: 15px;
+        line-break: auto;
+        border: solid white;
+        background: none;
+        color: white;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

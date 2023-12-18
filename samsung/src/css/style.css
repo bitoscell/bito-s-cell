@@ -1,0 +1,74 @@
+.celulares a {
+    text-decoration: none;
+}
+.celulares a img {
+    width: 20px;
+}
+.apresentacao {
+    margin-top: 8vh;
+    margin-left: 28vw;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 10vh;
+}
+.logo img {
+    width: 25vw;
+    border-radius: 10px;
+    box-shadow: 5px 1px 10px rgba(0,0,0,0.7);
+}
+.logo {
+    width: 100%;
+    background-color: rgba(255, 189, 6, 0.4);
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+.voltar img {
+    width: 40px;
+    box-shadow: none;
+}
+.voltar {
+    position: absolute;
+    left: 2vw;
+    top: 3vh;
+    border: solid goldenrod 2px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.celular {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    align-items: start;
+}
+
+ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30vh;
+}
+ul li h2 {
+    margin-left: 10vw;
+}
+ul a {
+    margin-left: 10vw;
+    background-color: rgb(2, 253, 2);
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 7vh;
+    border-radius: 10px;
+}

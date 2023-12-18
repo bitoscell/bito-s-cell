@@ -1,0 +1,16 @@
+@media(max-width:500px) {
+    .logo img{
+        width: 40vw;
+    }
+    .apresentacao {
+        margin-left: 18vw;
+    }
+    li h2 {
+        margin-right: -30px;
+        width: 255px;
+        font-size: 15px;
+    }
+    li a {
+        border: solid goldenrod ;
+    }
+}
